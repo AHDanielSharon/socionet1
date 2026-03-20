@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon --watch src -e ts --exec ts-node -r tsconfig-paths/register src/index.ts",
   "build": "echo skip build",
-    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+   "start": "ts-node -r tsconfig-paths/register src/index.ts"
     "worker": "node -r tsconfig-paths/register dist/worker.js",
     "type-check": "tsc --noEmit"
   },
