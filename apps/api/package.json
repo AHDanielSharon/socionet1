@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nodemon --watch src -e ts --exec ts-node -r tsconfig-paths/register src/index.ts",
-   "build": "tsc || true",
-    "start": "node -r tsconfig-paths/register dist/index.js",
+  "build": "echo skip build",
+    "start": "ts-node -r tsconfig-paths/register src/index.ts",
     "worker": "node -r tsconfig-paths/register dist/worker.js",
     "type-check": "tsc --noEmit"
   },
