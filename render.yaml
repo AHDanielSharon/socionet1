@@ -4,7 +4,7 @@ services:
     runtime: node
     rootDir: apps/api
     buildCommand: npm install
-   startCommand: npx ts-node -r tsconfig-paths/register src/index.ts
+    startCommand: npx ts-node -r tsconfig-paths/register src/index.ts
     envVars:
       - key: NODE_ENV
         value: production
